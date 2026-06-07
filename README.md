@@ -22,5 +22,5 @@ python main.py
 
 This will:
 1. Load and clean raw engine operation data
-2. Create dimension and fact tables (Star Schema)
-3. Export to Tableau Hyper format for dashboard development
+2. Design the data model
+3. Export data model to **.hyper** for Tableau data ingestion
