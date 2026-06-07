@@ -1,4 +1,4 @@
-"# BI Case Study
+# BI Case Study
 
 
 ### Data Model
