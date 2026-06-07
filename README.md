@@ -5,7 +5,7 @@
 #### Dimension tables
 - **dim_issue_types** - Combustion issue types 
 - **dim_resting_result** - Resting results after each engine operation 
-- **dim_engine_attr** - Attributes (e.g. ID)/physical charachteristics (e.g. piston material) related to the specific engine.
+- **dim_engine_attr** - Attributes (e.g. ID)/physical charachteristics (e.g. piston material) related to the specific engine
 - **dim_dates** - Date table
 #### Fact table
 - **fct_engine_operations** - Metrics related to each specific engine operation
