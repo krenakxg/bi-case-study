@@ -1,5 +1,5 @@
 import pandas as pd
-
+import pantab
 
 def data_modeling(df: pd.DataFrame):
     
@@ -45,11 +45,13 @@ def data_modeling(df: pd.DataFrame):
                     'op_set_1', 'op_set_2', 'op_set_3', 'breakdown']
     fct_engine_ops = fct_df[fct_col].copy()
 
-
-    return {
+    model_dict={
         "dim_issue_types": dim_issue_types,
         "dim_resting_result": dim_resting_result,
         "dim_engine_attr": dim_engine_attr,
         "dim_dates": dim_dates,
         "fact_engine_operations": fct_engine_ops
-    } 
+        }
+    
+    hyper = 'ENGINE_OPS.hyper'
+    pantab.frames_to_hyper(model_dict, hyper)

@@ -4,7 +4,9 @@ venv/
 .venv
 # Database
 *.db
+*.hyper
 # PyCache
 __pycache__/
-#
+# irrelevant folders
 task_description/
+.vscode/
