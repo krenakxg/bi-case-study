@@ -45,6 +45,9 @@ def data_modeling(df: pd.DataFrame):
                     'op_set_1', 'op_set_2', 'op_set_3', 'breakdown']
     fct_engine_ops = fct_df[fct_col].copy()
 
+    fct_engine_ops = fct_engine_ops.reset_index(drop=True)
+    fct_engine_ops.insert(0, 'engine_ops_key', fct_engine_ops.index + 1)
+
     model_dict={
         "dim_issue_types": dim_issue_types,
         "dim_resting_result": dim_resting_result,
