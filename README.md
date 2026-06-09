@@ -11,16 +11,19 @@
 - **fct_engine_operations** - Metrics related to each specific engine operation
 
 
-## How to run
-
+## Steps
+### 1. Run the python function
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 # Run pipeline
 python main.py
 ```
-
 This will:
 1. Load and clean raw engine operation data
 2. Design the data model
 3. Export data model to **.hyper** for Tableau data ingestion
+   
+### 2. Open Tableau
+
+
