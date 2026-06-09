@@ -26,4 +26,6 @@ This will:
    
 ### 2. Open Tableau
 
-
+```
+Additional information of the development process can be found in the Jupyter notebook file.
+```
