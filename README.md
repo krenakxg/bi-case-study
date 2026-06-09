@@ -12,7 +12,7 @@
 
 
 ## Steps
-```
+
 ### 1. Run the python function
 ```bash
 # Install dependencies
@@ -20,12 +20,11 @@ pip install -r requirements.txt
 # Run pipeline
 python main.py
 ```
-This will:
-1. Load and clean raw engine operation data
-2. Design the data model
-3. Export data model to **.hyper** for Tableau data ingestion
-   
+   This will:
+   1. Load and clean raw engine operation data
+   2. Design the data model
+   3. Export data model to **.hyper** for Tableau data ingestion
 ### 2. Open Tableau
-```
+
 
 Additional information on the development process (data quality checks, EDA) can be found in the Jupyter notebook file.
