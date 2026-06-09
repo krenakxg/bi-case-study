@@ -3,7 +3,7 @@ import pantab
 
 def data_modeling(df: pd.DataFrame):
     
-
+    print('Creating backend data model...')
     #creating dimension tables
         # combustion issue dimension
     dim_issue_types = pd.DataFrame([
@@ -55,6 +55,7 @@ def data_modeling(df: pd.DataFrame):
         "dim_dates": dim_dates,
         "fact_engine_operations": fct_engine_ops
         }
-    
+
     hyper = 'ENGINE_OPS.hyper'
     pantab.frames_to_hyper(model_dict, hyper)
+    print('Backend data model done')
