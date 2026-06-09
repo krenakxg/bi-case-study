@@ -10,6 +10,7 @@
 #### Fact table
 - **fct_engine_operations** - Metrics related to each specific engine operation
 
+## Additional information on the development process (data quality checks, EDA) can be found in the Jupyter notebook file.
 
 ## Steps
 ### 1. Run the python function
@@ -25,6 +26,4 @@ This will:
 3. Export data model to **.hyper** for Tableau data ingestion
    
 ### 2. Open Tableau
-
-## Steps
 
